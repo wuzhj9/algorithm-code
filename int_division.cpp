@@ -1,3 +1,6 @@
+/***
+ * given integer n, print the division of n and total
+ ***/
 #include <iostream>
 #include <string>
 
