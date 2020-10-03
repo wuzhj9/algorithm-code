@@ -8,7 +8,6 @@ int RandomizedPartition(int * a, int start, int end)
     int i, j, temp;
     srand(int(time(0)));
     i =  rand()%(end-start+1) + start;
-    cout << i << endl;
     temp = a[i];
     a[i] = a[start];
     a[start] = temp;
